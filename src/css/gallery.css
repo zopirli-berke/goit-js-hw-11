@@ -45,3 +45,44 @@
 .search-form button:hover {
   background-color: #6c8cff;
 }
+
+.hidden {
+  display: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery a {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+}
+
+.gallery-list img {
+  width: 360px;
+  height: 200px;
+  display: block;
+}
+
+.info {
+  display: flex;
+  gap: 24px;
+}
+
+.info p {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-left: 5px;
+}
